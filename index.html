@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>Code Quiz</title>
+</head>
+<body>
+<div id="quiz-container">
+    <div class="questions">
+    <span>Score: <span id="score">0</span></span>
+    <span id="timer">0</span>
+    </div>
+   <div class="quesitons-area">
+       <div class="quiz-ques active">
+        <h1>Question 1. What does HTML stand for?</h1>
+        <div class="quiz-ans">
+        <input type="radio" name="an1" valid="valid">
+        <span>Hyper Text Markup Language</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an1">
+        <span>Hyperactive Tag Marks Language</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an1">
+        <span>Hyperlink Text Mark Language</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an1">
+        <span>Hyper Text Marking Language</span>
+        </div>
+       </div>
+       <div class="quiz-ques">
+        <h1>Question 2. Inside which HTML element do we put the JavaScript?</h1>
+        <div class="quiz-ans">
+        <input type="radio" name="an2">
+        <span>scripting</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an2">
+        <span>js</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an2" valid="valid">
+        <span>script</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an2">
+        <span>style</span>
+        </div>
+       </div>
+       <div class="quiz-ques">
+        <h1>Question 3. What does CSS stand for?</h1>
+        <div class="quiz-ans">
+        <input type="radio" name="an3">
+        <span>Creative Style Sheets</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an3">
+        <span>Computer Style Sheets</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an3" valid="valid">
+        <span>Cascading Style Sheets</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an3">
+        <span>Compounding Style Sheets</span>
+        </div>
+       </div>
+       <div class="quiz-ques">
+        <h1>Question 4. What is the preferred JavaScript syntax for id="thesis"?</h1>
+        <div class="quiz-ans">
+        <input type="radio" name="an4">
+        <span>"#"demoInnerHTML="thesis"</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an4" valid="valid">
+        <span>document.getElementById("thesis")</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an4">
+        <span>document.getElement("h1")</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an4">
+        <span>document.getEl("h1")</span>
+        </div>
+       </div>
+       <div class="quiz-ques">
+        <h1>Question 5. The instructions for a function are encolsed within?</h1>
+        <div class="quiz-ans">
+        <input type="radio" name="an5">
+        <span>quotes</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an5" valid="valid">
+        <span>curly brackets</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an5">
+        <span>parenthases</span>
+        </div>
+        <div class="quiz-ans">
+        <input type="radio" name="an5">
+        <span>square brackets</span>
+        </div>
+       </div>
+       <div class="quiz-ques">
+           <h1>Your Score <span id="totalScore">0</span> / 5 </h1>
+           <label for="initials">Initials:</label>
+            <input type="text" id="initials" name="initials"><br><br>
+            <button type="submit" class="btn2" value="submit" id="submit">Submit</button>
+ 
+       </div>
+    </div>
+    <div class="end-quiz">
+        <span class="btn1" id="next">Next</span>
+    </div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>    
+
+</body> 
+</html>
